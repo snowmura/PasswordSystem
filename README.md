@@ -21,20 +21,9 @@
 この二つはパスワードの自動生成スクリプトです。例えば桁数と書かれた入力フォームに15と入力し、隣の自動作成ボタンを押すと、
 下のパスワードの入力フォームに15桁のランダム文字列が表示されます。
 
-'''JavaScript
-
-function randomString() {
-				var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz~`!@#$%^&*()_+-={}[]:<>?/|";
-				var string_length = document.randform.ketasu.value;
-				var randomstring = '';
-				for (var i=0; i<string_length; i++) {
-					var rnum = Math.floor(Math.random() * chars.length);
-						randomstring += chars.substring(rnum,rnum+1);
-				}
-					document.randform.password.value = randomstring;
-		}
-'''
-
+```javascript
+var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz~`!@#$%^&*()_+-={}[]:<>?/|";
+```
 このスクリプトを使用して生成されたパスワードは他人に見られたとしても、すぐに覚えられるということはほぼ有り得ないので、安全性に優れています。なお桁数の入力には半角数字で、２桁までしか入力できません。
 パスワードの自動生成スクリプトを利用しない場合は、そのままパスワードを入力します。
 
