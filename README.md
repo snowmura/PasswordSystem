@@ -1,24 +1,25 @@
-PasswordSystem
-==============
+##パスワード管理システム
 
-Webサイトのアカウント情報を管理するスクリプト
+Webサイトのアカウント情報を管理するためのスクリプト
+Webサイトを利用するのにアカウントを作成するだけ作成しておいて、その作成したアカウント情報を
 
-###これがタイトル
+###使い方
+1.サービス名　　
+例えばGoogleのアカウントを作成する場合、ユーザー名が必要になります。
 
-これhが普通の段落
+2.アカウント名  
 
->これがquote
+3.パスワードの説明
 
-```php
-echo "hello world!";
-```
-
+4.メモ
 ```javascript
-var hello = "hello world!!!";
+var hello = "hello world";
 ```
-
+4.送信
+```php
+echo "hello world";
 ```
-$ git push origin master
-```
-1.  this is something  
-2.  this is something else
+5.表示
+###運用
+使うには家庭内で自分のサーバに置くようにおく。
+今後に関しては「これも」やりたい。
