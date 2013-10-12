@@ -9,7 +9,7 @@ Webサイトのアカウント情報を管理するスクリプト
 
 >これがquote
 
-```
+```php
 echo "hello world!";
 ```
 
