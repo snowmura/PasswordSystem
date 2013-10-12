@@ -1,0 +1,291 @@
+*{
+			margin: 0;
+			padding: 0;
+}
+
+html{
+				height:100%;
+				
+				background: rgb(228,245,252);
+
+				background: -moz-linear-gradient(top,  rgb(228,245,252) 0%, rgb(3,158,178) 0%, rgb(0,63,119) 100%);
+
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(228,245,252)), color-stop(0%,rgb(3,158,178)), color-stop(100%,rgb(0,63,119)));
+
+				background: -webkit-linear-gradient(top,  rgb(228,245,252) 0%,rgb(3,158,178) 0%,rgb(0,63,119) 100%);
+
+				background: -o-linear-gradient(top,  rgb(228,245,252) 0%,rgb(3,158,178) 0%,rgb(0,63,119) 100%);
+
+				background: -ms-linear-gradient(top,  rgb(228,245,252) 0%,rgb(3,158,178) 0%,rgb(0,63,119) 100%);
+
+				background: linear-gradient(to bottom,  rgb(228,245,252) 0%,rgb(3,158,178) 0%,rgb(0,63,119) 100%);
+
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#003f77',GradientType=0 );
+
+
+}
+
+body{
+				margin:auto;
+				display:block;
+				width: 1024px;
+				background-color: #235b79;
+				border-radius: 10px;
+				padding:10px;
+}
+
+.ins{
+				width: 100%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+		/*		background-color: #64aad0; */
+				width: 100%;
+		/*		min-height: 200px; */
+				height:280px;
+				border-radius: 10px;
+
+				background: rgb(160,216,239);
+				background: -moz-linear-gradient(top,  rgb(160,216,239) 0%, rgb(221,241,249) 47%, rgb(234,255,255) 100%);
+
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(160,216,239)), color-stop(47%,rgb(221,241,249)), color-stop(100%,rgb(234,255,255)));
+
+				background: -webkit-linear-gradient(top,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				background: -o-linear-gradient(top,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				background: -ms-linear-gradient(top,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				background: linear-gradient(to bottom,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#eaffff',GradientType=0 );
+
+
+}
+
+.data{
+				width: 100%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+		/*		background-color: #64aad0; */
+				width: 100%;
+				min-height: 200px;
+				border-radius: 10px;
+
+				background: rgb(160,216,239);
+				background: -moz-linear-gradient(top,  rgb(160,216,239) 0%, rgb(221,241,249) 47%, rgb(234,255,255) 100%);
+
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(160,216,239)), color-stop(47%,rgb(221,241,249)), color-stop(100%,rgb(234,255,255)));
+
+				background: -webkit-linear-gradient(top,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				background: -o-linear-gradient(top,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				background: -ms-linear-gradient(top,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				background: linear-gradient(to bottom,  rgb(160,216,239) 0%,rgb(221,241,249) 47%,rgb(234,255,255) 100%);
+
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#eaffff',GradientType=0 );
+
+
+}
+
+section h1{
+						width: 96%;
+						padding-left: 4%;
+				/*		background-color: #086ca2; */
+						color: #fff;
+						display: block;
+						margin: auto;
+						padding-top: 5px;
+						padding-bottom: 3px;
+						border-top-left-radius: 10px;
+						border-top-right-radius: 10px;
+
+						background: rgb(1,75,155);
+						background: -moz-linear-gradient(top,  rgb(1,75,155) 0%, rgb(32,124,202) 52%, rgb(41,137,216) 100%, rgb(125,185,232) 100%);
+
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(1,75,155)), color-stop(52%,rgb(32,124,202)), color-stop(100%,rgb(41,137,216)), color-stop(100%,rgb(125,185,232)));
+
+						background: -webkit-linear-gradient(top,  rgb(1,75,155) 0%,rgb(32,124,202) 52%,rgb(41,137,216) 100%,rgb(125,185,232) 100%);
+
+						background: -o-linear-gradient(top,  rgb(1,75,155) 0%,rgb(32,124,202) 52%,rgb(41,137,216) 100%,rgb(125,185,232) 100%);
+
+						background: -ms-linear-gradient(top,  rgb(1,75,155) 0%,rgb(32,124,202) 52%,rgb(41,137,216) 100%,rgb(125,185,232) 100%);
+
+						background: linear-gradient(to bottom,  rgb(1,75,155) 0%,rgb(32,124,202) 52%,rgb(41,137,216) 100%,rgb(125,185,232) 100%);
+
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#014b9b', endColorstr='#7db9e8',GradientType=0 );
+
+
+}
+
+/*-------------------------------------------
+ *         Input Area css parameters        *
+-------------------------------------------*/
+
+.box1{
+			width: 90%;
+			height: 260px;
+			display: block;
+			margin-left: 9%;
+}
+
+.forty{
+				width: 40%;
+				height: 100%;
+				float: left;
+}
+
+.sixty{
+				width: 60%;
+				height: 100%;
+				float: left;
+}
+.first{
+				margin-top:10px;
+}
+
+
+.item{
+				height: 70px;
+				width: 100%;
+
+}
+
+.third{
+				height:60px;
+				width: 100%;
+}
+
+/* #divservice{
+						margin-top:10px;
+} */
+
+input.inp{
+			display: block;
+			width: 60%;
+			padding: 2px;
+			border-radius: 4px;
+			margin-left: 5%;
+}
+
+input.ketainp{
+			margin-left: 1%;
+}
+
+input.passinp{
+				display: block;
+				width: 60%;
+				padding: 2px;
+				border-radius: 4px;
+				margin-left: 5%;
+}
+
+.textmemo{
+					margin-top:10px;
+}
+
+.memobox{
+				background-color: #fff;
+				border-radius: 10px;
+				height: 136px;
+				width: 80%;
+				display: block;
+				margin-top: 5px;
+}
+
+textarea{
+					width:97%;
+					height:90%;
+					margin:1.5%;
+					resize:none;
+					border: none;
+}
+
+textarea:focus {
+							outline:none;
+}
+
+button{
+		border-radius: 3px;
+}
+
+.autopass{
+					margin-left:1%;
+					margin-bottom:5px;
+					padding:2px 5px;
+}
+
+.add{
+				margin-top: 2%;
+				padding:2px 5px;
+				margin-left: 58.5%;
+}
+
+/*------------------------------------
+ * 		Table Style Declaration        *
+ *----------------------------------*/
+
+.tabledata{
+	padding:1%;
+}
+
+table{
+	width:100%;
+	margin:auto;
+	border:solid 1px;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+th{
+		border:solid 1px;
+		padding:3px;
+}
+
+td{
+		border:solid 1px;
+		padding:3px;
+}
+
+.tableid{
+		width:3%;
+}
+
+.tabledate{
+		width:15%;
+}
+
+.tableservice{
+		width:15%;
+}
+
+.tableuser{
+		width:15%;
+}
+
+.tablepw{
+		width:15%;
+}
+
+.tablememo{
+		width:30%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
