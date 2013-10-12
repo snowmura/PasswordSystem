@@ -16,3 +16,7 @@ echo "hello world!";
 ```javascript
 var hello = "hello world!!!";
 ```
+
+```
+$ git push origin master
+```
