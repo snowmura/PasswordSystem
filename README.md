@@ -20,8 +20,8 @@
 右隣に桁数と書かれた入力フォームと自動作成と書かれたボタンがあります。
 この二つはJavaScriptを使用して作成したパスワードの自動生成スクリプトです。例えば桁数と書かれた入力フォームに15と入力し、隣の自動作成ボタンを押すと、下のパスワードの入力フォームに15桁のランダム文字列が表示されます。
 
-下のコードは今回作成したパスワードの自動生成スクリプトのソースコードです。
-
+下はパスワードの自動生成スクリプトのソースコードです。
+変数charsの""の中からランダムで文字列を生成します。
 ```javascript
 function randomString() {
 				var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz~`!@#$%^&*()_+-={}[]:<>?/|";
@@ -34,7 +34,7 @@ function randomString() {
 					document.randform.password.value = randomstring;
 		}
 ```
-こちらのサイトを参考にさせてもらいました。http://www.mediacollege.com/internet/javascript/number/random.html
+こちらのサイトを参考にさせていただきました。http://www.mediacollege.com/internet/javascript/number/random.html
 
 
 このスクリプトを使用して生成されたパスワードは他人に見られたとしても、すぐに覚えられるということはほぼ有り得ないので、安全性に優れています。なお桁数の入力には半角数字で、２桁までしか入力できません。
